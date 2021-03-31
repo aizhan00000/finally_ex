@@ -1,0 +1,7 @@
+from django.contrib import admin
+from course.models import Course, Languages, Details, Enrollment
+
+admin.site.register(Course)
+admin.site.register(Languages)
+admin.site.register(Details)
+admin.site.register(Enrollment)
